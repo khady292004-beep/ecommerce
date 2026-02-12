@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
+  background-color: #cea4c5;
 }
 
 .produits {
@@ -11,7 +11,7 @@ body {
 }
 
 .produit {
-  background: white;
+  background: rgb(201, 144, 187);
   padding: 10px;
   border-radius: 12px;
   text-align: center;
@@ -33,4 +33,29 @@ body {
 .produit p {
   margin-top: 10px;
   font-weight: bold;
+}
+.collection-intro{
+  padding:80px 20px;
+  background:linear-gradient(135deg,#f6e6fa,#ede0f7);
+  text-align:center;
+}
+
+.collection-intro h1{
+  font-size:42px;
+  color:#6a1b9a;
+  margin-bottom:20px;
+  font-weight:700;
+}
+
+.collection-intro p{
+  font-size:20px;
+  color:#444;
+  max-width:850px;
+  margin:0 auto;
+  line-height:1.8;
+}
+
+.collection-intro strong{
+  color:#6a1b9a;
+  font-weight:700;
 }
